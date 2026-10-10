@@ -1,0 +1,30 @@
+{
+  "components": [
+    {
+      "key": "studentInfo",
+      "type": "textfield",
+      "label": "Student details (refer to process variables)",
+      "disabled": true,
+      "defaultValue": "{{studentName}} - {{regNo}}",
+      "id": "Field_studentInfo"
+    },
+    {
+      "key": "approved",
+      "type": "checkbox",
+      "label": "Approve this leave",
+      "defaultValue": false,
+      "id": "Field_approved"
+    },
+    {
+      "key": "remarks",
+      "type": "textarea",
+      "label": "Remarks",
+      "id": "Field_remarks"
+    }
+  ],
+  "type": "default",
+  "id": "fa-approval-form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "schemaVersion": 16
+}
